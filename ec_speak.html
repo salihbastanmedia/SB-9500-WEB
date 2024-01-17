@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SB-9500 Örnek SPEAK Fonksiyon Kodu</title>
+    <style>
+        body {
+            background-color: black;
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <p style="margin-top: 20px; margin-left: 20px;">
+        <strong># PYTHON #</strong>
+        <hr>
+        import sb9500
+        <br>
+        <br>
+        sb9500.tts_ApiKey = "xxxxx" #ElevenLabs > API
+        <br>
+        sb9500.voice = "Ra9MenJpdx5RRKD8DNRe" #ElevenLabs > VoiceID
+        <br>
+        <br>
+        sb9500.speak(text="Hello World!")
+    </p>
+</body>
+</html>
